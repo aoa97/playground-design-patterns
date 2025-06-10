@@ -28,11 +28,6 @@ class PizzaBuilder {
 
   // Construct the pizza
   Pizza build() {
-    return Pizza(
-      crust: crust,
-      sauce: sauce,
-      toppings: List.unmodifiable(toppings),
-      hasCheese: hasCheese,
-    );
+    return Pizza(this);
   }
 }
