@@ -1,28 +1,29 @@
-import 'pizza_model.dart';
+part of 'pizza_model.dart';
 
 class PizzaBuilder {
-  String crust = "Thin Crust";
-  String sauce = "Tomato Sauce";
-  List<String> toppings = [];
-  bool hasCheese = true;
+  // The Private Workshop [Private Attributes]
+  String _crust = "Thin Crust";
+  String _sauce = "Tomato Sauce";
+  List<String> _toppings = [];
+  bool _hasCheese = true;
 
   PizzaBuilder withCrust(String crust) {
-    this.crust = crust;
+    this._crust = crust;
     return this; // for method chaining
   }
 
   PizzaBuilder withSauce(String sauce) {
-    this.sauce = sauce;
+    this._sauce = sauce;
     return this;
   }
 
   PizzaBuilder withToppings(List<String> toppings) {
-    this.toppings = toppings;
+    this._toppings = toppings;
     return this;
   }
 
   PizzaBuilder withCheese() {
-    this.hasCheese = true;
+    this._hasCheese = true;
     return this;
   }
 

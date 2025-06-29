@@ -1,7 +1,7 @@
 // Statement: Ease the construction of complex objects
 // Example: Separate the construction of Pizza from its representation
 
-import 'pizza_builder.dart';
+import 'pizza_model.dart';
 
 main() {
   var pizza = PizzaBuilder()
