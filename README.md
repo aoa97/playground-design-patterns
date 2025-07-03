@@ -1,2 +1,10 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## 🧭 Adapter Pattern - Weather
+
+| Without Adapter                    | With Adapter                        |
+|------------------------------------|-------------------------------------|
+| ![Diagram 1](./weather_problem_naive_uml.png) | ![Diagram 2](./weather_problem_adapter_uml.png) |
+
+
+<!-- ## 🧭 Observer Pattern - Blog
+
+![Observer Pattern Diagram](./uml_blog_observer_pattern.png) -->

@@ -8,6 +8,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   meta: ^1.16.0
+  xml: ^6.5.0
 
 dev_dependencies:
   test: ^1.24.0
