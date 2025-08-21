@@ -1,2 +1,7 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## 🧭 Strategy Pattern - Checkout
+
+![Strategy Pattern Diagram](./checkout_uml.png)
+
+## 🧭 Strategy Pattern - Notification Service
+
+![Strategy Pattern Diagram](./notification_uml.png)
