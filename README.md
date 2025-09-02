@@ -1,2 +1,7 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## 🧭 Factory Pattern - Payment Successor
+
+![Factory Pattern Diagram](./factory_uml.png)
+
+## 🧭 Abstract Factory Pattern - Payment Successor
+
+![Abstract Factory Pattern Diagram](./abstract_factory_uml.png)
