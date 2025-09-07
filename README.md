@@ -5,3 +5,7 @@
 ## 🧭 Abstract Factory Pattern - Payment Successor
 
 ![Abstract Factory Pattern Diagram](./abstract_factory_uml.png)
+
+## 🧭 Abstract Factory Pattern - Auyj
+
+![Abstract Factory Pattern Diagram](./auth_uml.png)
