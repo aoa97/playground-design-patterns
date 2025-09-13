@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## 🧭 Bridge Pattern - CV Report
+
+![Bridge Pattern Diagram](./flight_booking_uml.png)
