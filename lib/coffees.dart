@@ -1,6 +1,6 @@
-import 'beverage.dart';
+import 'beverages.dart';
 
-class Decaf implements Beverage {
+class Decaf implements Coffee {
   @override
   String get description => "Decaf";
 
@@ -8,7 +8,7 @@ class Decaf implements Beverage {
   double cost() => 1.05;
 }
 
-class Espresso implements Beverage {
+class Espresso implements Coffee {
   @override
   String get description => "Espresso";
 
@@ -16,7 +16,7 @@ class Espresso implements Beverage {
   double cost() => 1.99;
 }
 
-class DarkRoast implements Beverage {
+class DarkRoast implements Coffee {
   @override
   String get description => "Dark Roast";
   @override
