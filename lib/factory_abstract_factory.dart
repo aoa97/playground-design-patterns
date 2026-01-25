@@ -3,28 +3,22 @@ main() {
   UIFactory androidFactory = AndroidUIFactory();
   UIFactory iosFactory = IOSUIFactory();
 
-  // Create buttons
+  // Android UI components
   UIButton androidButton = androidFactory.createButton();
-  UIButton iosButton = iosFactory.createButton();
-
-  // Create dialogs
   UIDialog androidDialog = androidFactory.createDialog();
-  UIDialog iosDialog = iosFactory.createDialog();
-
-  // Create snack bars
   UISnackBar androidSnackBar = androidFactory.createSnackBar();
+
+  // IOS UI components
+  UIButton iosButton = iosFactory.createButton();
+  UIDialog iosDialog = iosFactory.createDialog();
   UISnackBar iosSnackBar = iosFactory.createSnackBar();
 
-  // Render dialogs
+  // Render
   androidDialog.render();
-  iosDialog.render();
-
-  // Render buttons
   androidButton.render();
-  iosButton.render();
-
-  // Render snack bars
   androidSnackBar.render();
+  iosButton.render();
+  iosDialog.render();
   iosSnackBar.render();
 }
 

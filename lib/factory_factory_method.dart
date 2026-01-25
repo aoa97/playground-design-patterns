@@ -12,12 +12,15 @@ main() {
   iosButton.render();
 }
 
-// Abstract Creator
+// Factory Method: Abstract Creator [Pure Factory interface]
+// DIP: High-level module
+// Note: Abstract creator can include business logic alongside the factory method E.g. PizzaFactory
 abstract class UIButtonFactory {
   UIButton createButton();
 }
 
-// Concrete Creators
+// Factory Method: Concrete Creators
+// DIP: Low-level module
 class AndroidButtonFactory implements UIButtonFactory {
   @override
   UIButton createButton() {
@@ -32,7 +35,8 @@ class IOSButtonFactory implements UIButtonFactory {
   }
 }
 
-// Abstract Product
+// Factory Method: Abstract Product
+// DIP: Abstraction
 abstract class UIButton {
   void render();
 }
